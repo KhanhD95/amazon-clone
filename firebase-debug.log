@@ -1,0 +1,42 @@
+[debug] [2021-04-28T16:32:27.646Z] ----------------------------------------------------------------------
+[debug] [2021-04-28T16:32:27.648Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Khanh Dang\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-04-28T16:32:27.648Z] CLI Version:   9.10.0
+[debug] [2021-04-28T16:32:27.648Z] Platform:      win32
+[debug] [2021-04-28T16:32:27.648Z] Node Version:  v14.16.0
+[debug] [2021-04-28T16:32:27.649Z] Time:          Wed Apr 28 2021 12:32:27 GMT-0400 (Eastern Daylight Time)
+[debug] [2021-04-28T16:32:27.649Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-28T16:32:27.655Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-28T16:32:27.655Z] > authorizing via signed-in user (kdang14.kd@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Khanh Dang\onlineretail-project
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using onlineretail-project. 
+[debug] [2021-04-28T16:32:49.565Z] > refreshing access token with scopes: []
+[debug] [2021-04-28T16:32:49.565Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-28T16:32:49.673Z] <<< HTTP RESPONSE 200 {"date":"Wed, 28 Apr 2021 16:32:49 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-28T16:32:49.682Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/onlineretail-project [none]
+[debug] [2021-04-28T16:32:49.902Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/onlineretail-project 200
+[debug] [2021-04-28T16:32:49.902Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/onlineretail-project {"projectId":"onlineretail-project","projectNumber":"487090577726","displayName":"onlineretail-project","name":"projects/onlineretail-project","resources":{"hostingSite":"onlineretail-project","storageBucket":"onlineretail-project.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+=== Emulators Setup
